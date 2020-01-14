@@ -1,0 +1,15 @@
+{
+  "categories": {
+    "_id": 1,
+    "name": "david",
+    "display_name": "David",
+    "description": "It's david"
+  },
+  "products": {
+    "_id": "popcorn",
+    "category": "corn",
+    "name": "jiffy",
+    "display_name": "Jiffy Pop",
+    "description": "It's popcorn, pay attention"
+  }
+}
