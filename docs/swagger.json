@@ -21,29 +21,66 @@
         }
       },
       "post": {
-        "description": "Get all categories",
+        "description": "post a category",
         "responses": {
           "200": {
-            "description": "Returned a list of categories"
+            "description": "Successful post"
           }
         }
       },
       "put": {
-        "description": "Get all categories",
+        "description": "put a category",
         "responses": {
           "200": {
-            "description": "Returned a list of categories"
+            "description": "Successful put"
           }
         }
       },
       "delete": {
-        "description": "Get all categories",
+        "description": "Delete a category",
         "responses": {
           "200": {
-            "description": "Returned a list of categories"
+            "description": "Deleted a category"
           }
         }
       }
     }
   }
+  "paths": {
+    "/product": {
+      "get": {
+        "description": "Get all products",
+        "responses": {
+          "200": {
+            "description": "Returned a list of products"
+          }
+        }
+      },
+      "post": {
+        "description": "Post a product",
+        "responses": {
+          "200": {
+            "description": "Posted a product"
+          }
+        }
+      },
+      "put": {
+        "description": "Put a product",
+        "responses": {
+          "200": {
+            "description": "Put a product"
+          }
+        }
+      },
+      "delete": {
+        "description": "Delete a product",
+        "responses": {
+          "200": {
+            "description": "Delete a product"
+          }
+        }
+      }
+    }
+  }
+
 }
